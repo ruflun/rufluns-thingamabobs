@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DAD",
+    "DDD",
+    "DAD"
+  ],
+  "key": {
+    "D": "minecraft:dirt",
+    "A": "minecraft:andesite"
+  },
+  "result": {
+    "id": "rufrix:test_item",
+    "count": 4
+  }
+}

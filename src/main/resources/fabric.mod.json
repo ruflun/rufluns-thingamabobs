@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "rufrix",
+	"version": "${version}",
+	"name": "Ruflun's Thingamabobs",
+	"description": "Adds random things to Minecraft. Things may be more or less useful.",
+	"authors": [
+		"ruflun"
+	],
+	"contact": {
+		"homepage": "https://github.com/ruflun/rufluns-thingamabobs",
+		"sources": "https://github.com/ruflun/rufluns-thingamabobs"
+	},
+	"license": "GPL-3.0",
+	"icon": "assets/rufrix/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.ruflun.RuflunSThingamabobs"
+		],
+		"client": [
+			"io.github.ruflun.client.RuflunSThingamabobsClient"
+		],
+		"fabric-datagen": [
+			"io.github.ruflun.client.RuflunSThingamabobsDataGenerator"
+		]
+	},
+	"mixins": [
+		"rufrix.mixins.json",
+		{
+			"config": "rufrix.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:shapeless",
+  "ingredients": [
+    "minecraft:writable_book",
+    "minecraft:iron_nugget",
+    "minecraft:iron_nugget",
+    "minecraft:iron_nugget"
+  ],
+  "result": {
+    "id": "minecraft:name_tag",
+    "count": 3
+  }
+}

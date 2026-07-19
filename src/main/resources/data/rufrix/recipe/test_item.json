@@ -7,7 +7,7 @@
   ],
   "key": {
     "D": "minecraft:dirt",
-    "A": "minecraft:andesite"
+    "A": "rufrix:uper_essence"
   },
   "result": {
     "id": "rufrix:test_item",

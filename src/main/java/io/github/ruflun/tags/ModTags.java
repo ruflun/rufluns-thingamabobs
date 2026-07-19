@@ -1,0 +1,30 @@
+package io.github.ruflun.tags;
+
+import io.github.ruflun.RuflunSThingamabobs;
+import net.minecraft.core.Registry;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.tags.TagKey;
+import net.minecraft.world.level.block.Block;
+
+public class ModTags {
+
+    public static final class Blocks {
+        // Blocks that can be used to open an Uper Core
+        public static final TagKey<Block> UPERCORE_OPENER = register(Registries.BLOCK, "upercore_opener");
+    }
+
+    public static final class Items {
+        // Empty for now
+    }
+
+
+
+    private static <T> TagKey<T> register(ResourceKey<Registry<T>> tagKey, String id) {
+        return TagKey.create(tagKey, RuflunSThingamabobs.id(id));
+    }
+
+    public static void registerModTags() {
+        RuflunSThingamabobs.LOGGER.info("Registering tags for " + RuflunSThingamabobs.MOD_ID);
+    }
+}

@@ -1,3 +1,9 @@
 {
- "item.rufrix.test_item": "Very highly detailed test item that has a very high chance to kill you when consumed."
+ "item.rufrix.test_item": "VERY highly detailed test item that has a very high chance to kill you when consumed.",
+ "sound.rufrix.doyouarehavestupid": "bro why did you use that thing",
+ "tooltip.rufrix.test_item": "Please don't use it. Instead, have you tried surrounding a dirt block with this thing in a crafting table?",
+ "message.rufrix.upercore_cannot_open": "Hm, perhaps I could smash it open against a really hard block...",
+ "tooltip.rufrix.uper_core": "Smash it against REALLY hard rocks",
+ "item.rufrix.uper_core": "Uper Core",
+ "item.rufrix.uper_essence": "Uper Essence"
 }

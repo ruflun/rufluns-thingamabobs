@@ -1,0 +1,9 @@
+{
+  "values": [
+    "minecraft:bedrock",
+    "minecraft:obsidian",
+    "minecraft:crying_obsidian",
+    "minecraft:diamond_block",
+    "minecraft:netherite_block"
+  ]
+}

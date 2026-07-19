@@ -22,3 +22,9 @@
 
 [ ] Dinglo
 [ ] Dinglo cube
+
+[ ] Tungsten ore
+[ ] Tungsten ingot, nugget & cube
+[ ] Tungsten tool & armor set
+[ ] Tungsten compound
+[ ] Car battery

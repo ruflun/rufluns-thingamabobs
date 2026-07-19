@@ -69,6 +69,7 @@ public class UperCore extends Item {
             LootParams upercore_loot_params = new LootParams.Builder(serverLevel)
                     .withParameter(LootContextParams.ORIGIN, Vec3.atCenterOf(pos))
                     .withOptionalParameter(LootContextParams.THIS_ENTITY, plr)
+                    .withLuck(plr.getLuck())
                     .create(LootContextParamSets.CHEST);
 
             for (ItemStack drop_stack : upercore_loot.getRandomItems(upercore_loot_params)) {
@@ -82,7 +83,7 @@ public class UperCore extends Item {
         }
 
         // After the loot is generated
-        level.playSound(null, pos, SoundEvents.STONE_BREAK, SoundSource.BLOCKS);
+        level.playSound(null, pos, SoundEvents.AMETHYST_BLOCK_BREAK, SoundSource.BLOCKS);
         plr.getCooldowns().addCooldown(core_stack, 13);
         core_stack.shrink(1);
 

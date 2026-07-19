@@ -20,6 +20,7 @@ Regarding progression, while this mod doesn't exactly have any form of progressi
 - IntelliJ IDEA
 - Blockbench
 - GIMP
+- Aseprite
 
 ## License
 

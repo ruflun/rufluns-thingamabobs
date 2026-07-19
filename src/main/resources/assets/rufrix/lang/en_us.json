@@ -5,5 +5,6 @@
  "message.rufrix.upercore_cannot_open": "Hm, perhaps I could smash it against bedrock or obsidian...?",
  "tooltip.rufrix.uper_core": "Smash it against REALLY hard rocks",
  "item.rufrix.uper_core": "Uper Core",
- "item.rufrix.uper_essence": "Uper Essence"
+ "item.rufrix.uper_essence": "Uper Essence",
+ "creativeTab.rufrix": "Ruflun's Thingamabobs"
 }

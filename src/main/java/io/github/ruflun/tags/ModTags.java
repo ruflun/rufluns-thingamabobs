@@ -5,6 +5,7 @@ import net.minecraft.core.Registry;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.tags.TagKey;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 
 public class ModTags {
@@ -15,7 +16,11 @@ public class ModTags {
     }
 
     public static final class Items {
-        // Empty for now
+        // Essence items registered by the mod
+        public static final TagKey<Item> ESSENCES = register(Registries.ITEM, "essences");
+
+        // Items that should float midair, Terraria souls style
+        public static final TagKey<Item> FLOATING = register(Registries.ITEM, "floating");
     }
 
 

@@ -13,7 +13,7 @@ public class ModSounds {
 
 
     private static SoundEvent register(String id) {
-        Identifier identifier = Identifier.fromNamespaceAndPath(RuflunSThingamabobs.MOD_ID, id);
+        Identifier identifier = RuflunSThingamabobs.id(id);
         return Registry.register(BuiltInRegistries.SOUND_EVENT, identifier, SoundEvent.createVariableRangeEvent(identifier));
     }
 

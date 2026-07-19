@@ -23,12 +23,12 @@ public class ModItems {
     private static Item register(String name, Function<Item.Properties, Item> function) {
         return Registry.register(
                 BuiltInRegistries.ITEM,
-                Identifier.fromNamespaceAndPath(RuflunSThingamabobs.MOD_ID, name),
+                RuflunSThingamabobs.id(name),
                 function.apply(
                         new Item.Properties().setId(
                                 ResourceKey.create(
                                         Registries.ITEM,
-                                        Identifier.fromNamespaceAndPath(RuflunSThingamabobs.MOD_ID, name)
+                                        RuflunSThingamabobs.id(name)
                                 )
                         )
                 )

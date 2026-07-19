@@ -1,5 +1,6 @@
 package io.github.ruflun;
 
+import io.github.ruflun.creativemodetab.ModCreativeTab;
 import io.github.ruflun.item.ModItems;
 import io.github.ruflun.loot_table.ModLootTables;
 import io.github.ruflun.sound.ModSounds;
@@ -23,6 +24,7 @@ public class RuflunSThingamabobs implements ModInitializer {
 		ModLootTables.registerModLootTables();
 		ModSounds.registerModSounds();
 		ModItems.registerModItems();
+		ModCreativeTab.registerModTab();
 
 		LOGGER.info("Ruflun's Thingamabobs successfully loaded");
 	}

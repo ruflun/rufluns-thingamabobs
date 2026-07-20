@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XDX",
+    "XXX"
+  ],
+  "key": {
+    "X": "rufrix:test_item",
+    "D": "minecraft:dirt"
+  },
+  "result": {
+    "id": "rufrix:freakyman"
+  }
+}

@@ -1,6 +1,7 @@
 package io.github.ruflun.client.datagen;
 
 import io.github.ruflun.RuflunSThingamabobs;
+import io.github.ruflun.block.ModBlocks;
 import io.github.ruflun.item.ModItems;
 import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
@@ -17,7 +18,8 @@ public class RuflunSThingamabobsModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(@NonNull BlockModelGenerators blockModelGenerators) {
-
+        // Generic cube blocks
+        blockModelGenerators.createTrivialCube(ModBlocks.FREAKYMAN);
     }
 
     @Override

@@ -1,6 +1,7 @@
 package io.github.ruflun.creativemodetab;
 
 import io.github.ruflun.RuflunSThingamabobs;
+import io.github.ruflun.block.ModBlocks;
 import io.github.ruflun.item.ModItems;
 import net.fabricmc.fabric.api.creativetab.v1.FabricCreativeModeTab;
 import net.minecraft.core.Registry;
@@ -16,6 +17,9 @@ public class ModCreativeTab {
         //output.accept(ModBlocks.UPER_CORE_ORE); // TODO: Implement the block, and register it here
         output.accept(ModItems.UPER_CORE);
         output.accept(ModItems.UPER_ESSENCE);
+
+        // KEEP THIS MONSTROSITY AT THE BOTTOM
+        output.accept(ModBlocks.FREAKYMAN);
     });
 
 

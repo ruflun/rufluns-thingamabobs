@@ -2,6 +2,7 @@
   "values": [
     "minecraft:breeze_rod",
     "minecraft:wind_charge",
-    "#rufrix:essences"
+    "#rufrix:essences",
+    "rufrix:freakyman"
   ]
 }

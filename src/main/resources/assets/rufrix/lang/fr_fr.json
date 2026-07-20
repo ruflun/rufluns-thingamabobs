@@ -6,5 +6,10 @@
   "tooltip.rufrix.uper_core": "Fracasse-le contre une pierre TRÈS dure",
   "item.rufrix.uper_core": "Noyau d'Uper",
   "item.rufrix.uper_essence": "Essence d'Uper",
-  "creativeTab.rufrix": "Les trucamabobs de Ruflun"
+  "creativeTab.rufrix": "Les trucamabobs de Ruflun",
+  "block.rufrix.freakyman": "Freakyman.",
+  "tooltip.rufrix.freakyman.1": "C'est l'UNIQUE, le PREMIER, l'ORIGINAL Freakyman!",
+  "tooltip.rufrix.freakyman.2": "Du fameux jeu (qui est maintenant mort) Rooms of Gaiana!",
+  "tooltip.rufrix.freakyman.3": "Maintenant tu peux AVOIR ton assistant freaky personnel 24/7",
+  "tooltip.rufrix.freakyman.4": "N'IMPORTE LA CIRCONSTANCE, N'INTERAGIS PAS AVEC LE BLOC. JE NE DÉCONNE PAS."
 }

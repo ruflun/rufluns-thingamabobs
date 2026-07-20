@@ -1,7 +1,6 @@
 package io.github.ruflun.block;
 
 import io.github.ruflun.sound.ModSounds;
-import net.fabricmc.loader.impl.lib.sat4j.core.Vec;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.network.chat.Component;
@@ -10,10 +9,6 @@ import net.minecraft.sounds.SoundSource;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
-import net.minecraft.world.entity.EntitySpawnReason;
-import net.minecraft.world.entity.EntityTypes;
-import net.minecraft.world.entity.item.PrimedTnt;
-import net.minecraft.world.entity.monster.Creeper;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -25,7 +20,6 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.BlockHitResult;
-import net.minecraft.world.phys.Vec3;
 import org.jspecify.annotations.NonNull;
 
 import java.util.List;
@@ -36,9 +30,8 @@ public class Freakyman extends Block {
     public Freakyman(Properties properties) {
         super(properties);
         properties
-                .destroyTime(-1.0f)
+                .strength(999999999.9f, 999999999.9f)
                 .friction(0.0f)
-                .explosionResistance(3600000f)
                 .jumpFactor(10.0f)
                 .sound(SoundType.FUNGUS)
                 .noOcclusion()
@@ -53,8 +46,7 @@ public class Freakyman extends Block {
                             Component.translatable("tooltip.rufrix.freakyman.1").withColor(TextColor.GREEN),
                             Component.translatable("tooltip.rufrix.freakyman.2").withColor(TextColor.GREEN),
                             Component.translatable("tooltip.rufrix.freakyman.3").withColor(TextColor.GREEN),
-                            Component.translatable("tooltip.rufrix.freakyman.4").withColor(TextColor.DARK_RED),
-                            Component.translatable("tooltip.rufrix.freakyman.5").withColor(TextColor.DARK_RED)
+                            Component.translatable("tooltip.rufrix.freakyman.4").withColor(TextColor.DARK_RED)
                     ))
             )
     );

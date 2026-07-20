@@ -12,6 +12,7 @@ import net.minecraft.client.data.models.model.ModelTemplates;
 import org.jspecify.annotations.NonNull;
 
 public class RuflunSThingamabobsModelProvider extends FabricModelProvider {
+
     public RuflunSThingamabobsModelProvider(FabricPackOutput output) {
         super(output);
     }

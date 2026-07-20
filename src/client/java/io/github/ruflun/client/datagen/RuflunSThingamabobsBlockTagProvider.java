@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagsProvider;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.resources.Identifier;
+import net.minecraft.tags.BlockTags;
 import org.jspecify.annotations.NonNull;
 
 import java.util.concurrent.CompletableFuture;
@@ -33,6 +34,14 @@ public class RuflunSThingamabobsBlockTagProvider extends FabricTagsProvider.Bloc
 
 
         //=== VANILLA TAGS ===//
+
+        // Block mining material requirement
+        getOrCreateRawBuilder(BlockTags.NEEDS_IRON_TOOL)
+                .addElement(id("rufrix:uper_core_ore"));
+
+        // Block mining tool requirement
+        getOrCreateRawBuilder(BlockTags.MINEABLE_WITH_PICKAXE)
+                .addElement(id("rufrix:uper_core_ore"));
     }
 
     @Override

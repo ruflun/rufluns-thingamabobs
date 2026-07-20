@@ -21,6 +21,7 @@ public class RuflunSThingamabobsModelProvider extends FabricModelProvider {
     public void generateBlockStateModels(@NonNull BlockModelGenerators blockModelGenerators) {
         // Generic cube blocks
         blockModelGenerators.createTrivialCube(ModBlocks.FREAKYMAN);
+        blockModelGenerators.createTrivialCube(ModBlocks.UPER_CORE_ORE);
     }
 
     @Override

@@ -14,7 +14,7 @@ import net.minecraft.world.item.ItemStack;
 public class ModCreativeTab {
 
     public static final CreativeModeTab.DisplayItemsGenerator display = ((parameters, output) -> {
-        //output.accept(ModBlocks.UPER_CORE_ORE); // TODO: Implement the block, and register it here
+        output.accept(ModBlocks.UPER_CORE_ORE);
         output.accept(ModItems.UPER_CORE);
         output.accept(ModItems.UPER_ESSENCE);
 

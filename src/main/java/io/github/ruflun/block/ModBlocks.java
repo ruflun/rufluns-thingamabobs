@@ -16,6 +16,7 @@ import java.util.function.Function;
 public class ModBlocks {
 
     public static final Block FREAKYMAN = register("freakyman", Freakyman::new, Freakyman.blockItemProperties);
+    public static final Block UPER_CORE_ORE = register("uper_core_ore", OresConstructor.UPER_CORE_ORE::new, true);
 
 
 

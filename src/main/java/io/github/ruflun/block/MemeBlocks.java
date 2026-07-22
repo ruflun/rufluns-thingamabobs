@@ -28,6 +28,21 @@ import java.util.function.BiFunction;
 // Like the GenericBlocks superclass, but strictly for "meme" blocks. Most of these blocks are usually crafted via Memetic Essences or items acquired with those
 public class MemeBlocks {
 
+    // BlockItem lores for generic meme cubes
+    public static final BiFunction<Block, Item.Properties, BlockItem> Rflintglassnotflinthlun = ((block, properties) -> {
+        return new BlockItem(block, properties
+                .rarity(Rarity.RARE)
+                .component(
+                        DataComponents.LORE,
+                        new ItemLore(List.of(
+                                Component.translatable("tooltip.rufrix.rflintglassnotflinthlun")
+                        ))
+                )
+        );
+    });
+
+
+
     // THE FREAKYMAN OH YEAH
     public static class Freakyman extends Block {
 

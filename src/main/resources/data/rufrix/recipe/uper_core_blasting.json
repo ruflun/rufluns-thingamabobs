@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 3,
+  "cookingtime": 100,
+  "ingredient": "rufrix:uper_core_ore",
+  "result": {
+    "id": "rufrix:uper_core"
+  }
+}

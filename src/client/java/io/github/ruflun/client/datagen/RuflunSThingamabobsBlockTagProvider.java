@@ -31,17 +31,26 @@ public class RuflunSThingamabobsBlockTagProvider extends FabricTagsProvider.Bloc
                 .addElement(id("minecraft:diamond_block"))
                 .addElement(id("minecraft:netherite_block"));
 
+        // Mojave ores
+        getOrCreateRawBuilder(ModTags.Blocks.MOJAVE_ORES)
+                .addElement(id("rufrix:mojave_ore"))
+                .addElement(id("rufrix:mud_mojave_ore"));
+
 
 
         //=== VANILLA TAGS ===//
 
         // Block mining material requirement
-        getOrCreateRawBuilder(BlockTags.NEEDS_IRON_TOOL)
+        getOrCreateRawBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .addElement(id("rufrix:uper_core_ore"));
+        getOrCreateRawBuilder(BlockTags.NEEDS_STONE_TOOL)
+                .addTag(id("rufrix:mojave_ores"));
 
         // Block mining tool requirement
         getOrCreateRawBuilder(BlockTags.MINEABLE_WITH_PICKAXE)
                 .addElement(id("rufrix:uper_core_ore"));
+        getOrCreateRawBuilder(BlockTags.MINEABLE_WITH_SHOVEL)
+                .addTag(id("rufrix:mojave_ores"));
     }
 
     @Override

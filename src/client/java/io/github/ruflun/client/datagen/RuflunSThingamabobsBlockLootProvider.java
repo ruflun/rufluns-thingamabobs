@@ -19,6 +19,9 @@ public class RuflunSThingamabobsBlockLootProvider extends FabricBlockLootSubProv
     public void generate() {
         // Ore drops
         add(ModBlocks.UPER_CORE_ORE, block -> createOreDrop(block, ModItems.UPER_CORE));
+
+        // Block that drops themselves
+        dropSelf(ModBlocks.RFLINTGLASSNOTFLINTHLUN);
     }
 
     @Override

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 3,
+  "cookingtime": 200,
+  "ingredient": "rufrix:uper_core_ore",
+  "result": {
+    "id": "rufrix:uper_core"
+  }
+}

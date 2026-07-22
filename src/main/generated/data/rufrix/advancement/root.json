@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:gui/advancements/backgrounds/rufluns_thingamabobs",
+    "description": {
+      "translate": "advancements.rufrix.root.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "id": "rufrix:uper_core"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.rufrix.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "tick"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

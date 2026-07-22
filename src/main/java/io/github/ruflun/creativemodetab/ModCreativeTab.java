@@ -18,6 +18,9 @@ public class ModCreativeTab {
         output.accept(ModItems.UPER_CORE);
         output.accept(ModItems.UPER_ESSENCE);
 
+        output.accept(ModBlocks.MOJAVE_ORE);
+        output.accept(ModBlocks.MUD_MOJAVE_ORE);
+
         // KEEP THIS MONSTROSITY AT THE BOTTOM
         output.accept(ModBlocks.FREAKYMAN);
     });

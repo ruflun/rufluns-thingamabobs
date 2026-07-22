@@ -11,5 +11,18 @@
  "tooltip.rufrix.freakyman.1": "It's the ONE, the FIRST, the ONLY original Freakyman!",
  "tooltip.rufrix.freakyman.2": "From the (now deceased) hit game Rooms of Gaiana!",
  "tooltip.rufrix.freakyman.3": "Now you can have your VERY own personal freak assistant 24/7",
- "tooltip.rufrix.freakyman.4": "DO NOT, UNDER ANY CIRCUMSTANCES, INTERACT WITH THIS BLOCK. THIS IS NOT A DRILL."
+ "tooltip.rufrix.freakyman.4": "DO NOT, UNDER ANY CIRCUMSTANCES, INTERACT WITH THIS BLOCK. THIS IS NOT A DRILL.",
+ "tooltip.rufrix.rflintglassnotflinthlun": "Told bro he was gonna get a whole block",
+ "block.rufrix.uper_core_ore": "Uper Core Ore",
+ "block.rufrix.mojave_ore": "Mojave Ore",
+ "block.rufrix.mud_mojave_ore": "Mud Mojave Ore",
+ "item.rufrix.raw_mojave": "Raw Mojave",
+ "item.rufrix.mojave_ingot": "Mojave Ingot",
+ "block.rufrix.mojave_block": "Mojave Block",
+ "item.rufrix.mojave_nugget": "Mojave Nugget",
+ "advancements.rufrix.root.title": "Ruflun's Thingamabobs",
+ "advancements.rufrix.root.description": "More or less useful things added in your world. Have fun!",
+ "tooltip.rufrix.raw_mojave.1": "It's too soft to be put in a furnace.",
+ "tooltip.rufrix.raw_mojave.2": "Try pressing it in an ingot mold instead.",
+ "tooltip.rufrix.mojave_ores": "Cannot be put in a furnace. Harvest it's raw ores instead."
 }

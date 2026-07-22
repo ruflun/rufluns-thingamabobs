@@ -13,6 +13,9 @@ public class ModTags {
     public static final class Blocks {
         // Blocks that can be used to open an Uper Core
         public static final TagKey<Block> UPERCORE_OPENER = register(Registries.BLOCK, "upercore_opener");
+
+        // Mojave ores
+        public static final TagKey<Block> MOJAVE_ORES = register(Registries.BLOCK, "mojave_ores");
     }
 
     public static final class Items {

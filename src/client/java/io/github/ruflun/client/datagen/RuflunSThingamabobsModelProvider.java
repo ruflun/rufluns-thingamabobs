@@ -22,12 +22,16 @@ public class RuflunSThingamabobsModelProvider extends FabricModelProvider {
         // Generic cube blocks
         blockModelGenerators.createTrivialCube(ModBlocks.FREAKYMAN);
         blockModelGenerators.createTrivialCube(ModBlocks.UPER_CORE_ORE);
+        blockModelGenerators.createTrivialCube(ModBlocks.MOJAVE_ORE);
+        blockModelGenerators.createTrivialCube(ModBlocks.MUD_MOJAVE_ORE);
+        blockModelGenerators.createTrivialCube(ModBlocks.RFLINTGLASSNOTFLINTHLUN);
     }
 
     @Override
     public void generateItemModels(ItemModelGenerators itemModelGenerators) {
         // Flat items (classical)
         itemModelGenerators.generateFlatItem(ModItems.TEST_ITEM, ModelTemplates.FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.UPER_ESSENCE, ModelTemplates.FLAT_ITEM);
 
         // Custom 3D model items via Blockbench
         itemModelGenerators.itemModelOutput.accept(

@@ -6,6 +6,7 @@ import io.github.ruflun.item.ModItems;
 import io.github.ruflun.loot_table.ModLootTables;
 import io.github.ruflun.sound.ModSounds;
 import io.github.ruflun.tags.ModTags;
+import io.github.ruflun.worldgen.ModWorldGen;
 import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.resources.Identifier;
@@ -26,6 +27,7 @@ public class RuflunSThingamabobs implements ModInitializer {
 		ModSounds.registerModSounds();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModWorldGen.registerWorldGen();
 		ModCreativeTab.registerModTab();
 
 		LOGGER.info("Ruflun's Thingamabobs successfully loaded");

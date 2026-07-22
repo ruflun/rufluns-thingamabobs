@@ -36,6 +36,15 @@ public class RuflunSThingamabobsBlockTagProvider extends FabricTagsProvider.Bloc
                 .addElement(id("rufrix:mojave_ore"))
                 .addElement(id("rufrix:mud_mojave_ore"));
 
+        // Dirt & mud ore replaceables
+        getOrCreateRawBuilder(ModTags.Blocks.DIRT_ORE_REPLACEABLES)
+                .addElement(id("minecraft:dirt"))
+                .addElement(id("minecraft:coarse_dirt"))
+                .addElement(id("minecraft:rooted_dirt"));
+        getOrCreateRawBuilder(ModTags.Blocks.MUD_ORE_REPLACEABLES)
+                .addElement(id("minecraft:mud"))
+                .addElement(id("minecraft:muddy_mangrove_roots"));
+
 
 
         //=== VANILLA TAGS ===//

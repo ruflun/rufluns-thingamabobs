@@ -16,6 +16,10 @@ public class ModTags {
 
         // Mojave ores
         public static final TagKey<Block> MOJAVE_ORES = register(Registries.BLOCK, "mojave_ores");
+
+        // Dirt & mud ores replaceable
+        public static final TagKey<Block> DIRT_ORE_REPLACEABLES = register(Registries.BLOCK, "dirt_ore_replaceables");
+        public static final TagKey<Block> MUD_ORE_REPLACEABLES = register(Registries.BLOCK, "mud_ore_replaceables");
     }
 
     public static final class Items {

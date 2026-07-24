@@ -1,5 +1,8 @@
 {
   "values": [
-    "rufrix:uper_core_ore"
+    "rufrix:uper_core_ore",
+    "rufrix:mojave_block",
+    "rufrix:raw_mojave_block",
+    "rufrix:mojave_rootseed"
   ]
 }

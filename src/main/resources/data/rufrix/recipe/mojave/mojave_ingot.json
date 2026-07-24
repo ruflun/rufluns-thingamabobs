@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "rufrix:ingot_mold",
+    "rufrix:raw_mojave",
+    "rufrix:raw_mojave",
+    "rufrix:raw_mojave"
+  ],
+  "result": {
+    "id": "rufrix:mojave_ingot",
+    "count": 1
+  }
+}

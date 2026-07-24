@@ -19,12 +19,16 @@
  "block.rufrix.mud_mojave_ore": "Mud Mojave Ore",
  "item.rufrix.raw_mojave": "Raw Mojave",
  "item.rufrix.mojave_ingot": "Mojave Ingot",
- "block.rufrix.mojave_block": "Mojave Block",
- "block.rufrix.raw_mojave_block": "Raw Mojave Block",
+ "block.rufrix.mojave_block": "Block of Mojave",
+ "block.rufrix.raw_mojave_block": "Block of Raw Mojave",
  "item.rufrix.mojave_nugget": "Mojave Nugget",
  "advancements.rufrix.root.title": "Ruflun's Thingamabobs",
  "advancements.rufrix.root.description": "More or less useful things added in your world. Have fun!",
  "tooltip.rufrix.raw_mojave.1": "It's too soft to be put in a furnace.",
  "tooltip.rufrix.raw_mojave.2": "Try pressing it in an ingot mold instead.",
- "tooltip.rufrix.mojave_ores": "Cannot be put in a furnace. Harvest it's raw ores instead."
+ "tooltip.rufrix.mojave_ores": "Cannot be put in a furnace. Harvest it's raw ores instead.",
+ "tooltip.rufrix.ingot_mold": "Craft with 3 Raw Mojave to make an ingot.",
+ "item.rufrix.ingot_mold": "Ingot Mold",
+ "block.rufrix.mojave_rootseed": "Mojave Rootseed",
+ "tooltip.rufrix.mojave_rootseed": "Grows mojave ores in nearby compatible blocks."
 }

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "rufrix:mojave_nugget",
+    "rufrix:mojave_nugget",
+    "rufrix:mojave_nugget",
+    "rufrix:mojave_nugget",
+    "rufrix:mojave_nugget",
+    "rufrix:mojave_nugget",
+    "rufrix:mojave_nugget",
+    "rufrix:mojave_nugget",
+    "rufrix:mojave_nugget"
+  ],
+  "result": {
+    "id": "rufrix:mojave_ingot",
+    "count": 1
+  }
+}

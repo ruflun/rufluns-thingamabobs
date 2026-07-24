@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BMD",
+    "UGU",
+    "DMB"
+  ],
+  "key": {
+    "M": "rufrix:raw_mojave_block",
+    "U": "rufrix:uper_essence",
+    "G": "minecraft:gold_block",
+    "D": "minecraft:dirt",
+    "B": "minecraft:bone_meal"
+  },
+  "result": {
+    "id": "rufrix:mojave_rootseed",
+    "count": 1
+  }
+}

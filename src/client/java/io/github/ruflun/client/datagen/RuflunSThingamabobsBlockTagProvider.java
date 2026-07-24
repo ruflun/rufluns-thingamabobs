@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagsProvider;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.resources.Identifier;
 import net.minecraft.tags.BlockTags;
+import net.minecraft.world.level.block.Block;
 import org.jspecify.annotations.NonNull;
 
 import java.util.concurrent.CompletableFuture;
@@ -53,11 +54,16 @@ public class RuflunSThingamabobsBlockTagProvider extends FabricTagsProvider.Bloc
         getOrCreateRawBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .addElement(id("rufrix:uper_core_ore"));
         getOrCreateRawBuilder(BlockTags.NEEDS_STONE_TOOL)
-                .addTag(id("rufrix:mojave_ores"));
+                .addTag(id("rufrix:mojave_ores"))
+                .addElement(id("rufrix:mojave_block"))
+                .addElement(id("rufrix:raw_mojave_block"));
 
         // Block mining tool requirement
         getOrCreateRawBuilder(BlockTags.MINEABLE_WITH_PICKAXE)
-                .addElement(id("rufrix:uper_core_ore"));
+                .addElement(id("rufrix:uper_core_ore"))
+                .addElement(id("rufrix:mojave_block"))
+                .addElement(id("rufrix:raw_mojave_block"))
+                .addElement(id("rufrix:mojave_rootseed"));
         getOrCreateRawBuilder(BlockTags.MINEABLE_WITH_SHOVEL)
                 .addTag(id("rufrix:mojave_ores"));
     }

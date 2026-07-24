@@ -26,5 +26,9 @@
   "advancements.rufrix.root.description": "Des trucs plus ou moins utile. Amuse-toi bien !",
   "tooltip.rufrix.raw_mojave.1": "C'est trop mou pour faire fondre dans un four.",
   "tooltip.rufrix.raw_mojave.2": "Essaie de le fourrer dans un moule à lingots à la place",
-  "tooltip.rufrix.mojave_ores": "ne peut pas être mit dans un four. Essaye de récupérer la matière brut à la place."
+  "tooltip.rufrix.mojave_ores": "ne peut pas être mit dans un four. Essaye de récupérer la matière brut à la place.",
+  "tooltip.rufrix.ingot_mold": "Crafte-le avec 3 Mojave brut pour faire un lingot.",
+  "item.rufrix.ingot_mold": "Moule à lingot",
+  "block.rufrix.mojave_rootseed": "Point de croissance de mojave",
+  "tooltip.rufrix.mojave_rootseed": "Fais pousser de la mojave dans les blocs compatibles à proximité."
 }

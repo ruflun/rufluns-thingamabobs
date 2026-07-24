@@ -1,6 +1,8 @@
 package io.github.ruflun.block;
 
 import io.github.ruflun.RuflunSThingamabobs;
+import io.github.ruflun.block.generic.MojaveBlocks;
+import io.github.ruflun.block.utility.MojaveRootseed;
 import io.github.ruflun.item.GenericItemsWithLore;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -18,10 +20,18 @@ public class ModBlocks {
 
     //===NOTE: Block items with lore that have no Block changes should have the block item constructor inherited from items.GenericItemsWithLore instead===//
 
-    // Ores
+    // Uper-related blocks
     public static final Block UPER_CORE_ORE = register("uper_core_ore", OresConstructor.UPER_CORE_ORE::new, true);
+    //public static final Block UPERDIRT = register("uperdirt", )
+
+    // Mojave-related blocks
     public static final Block MOJAVE_ORE = register("mojave_ore", OresConstructor.MOJAVE_ORE::new, GenericItemsWithLore.MOJAVE_ORES);
     public static final Block MUD_MOJAVE_ORE = register("mud_mojave_ore", OresConstructor.MUD_MOJAVE_ORE::new, GenericItemsWithLore.MOJAVE_ORES);
+    public static final Block MOJAVE_BLOCK = register("mojave_block", MojaveBlocks::new, true);
+    public static final Block RAW_MOJAVE_BLOCK = register("raw_mojave_block", MojaveBlocks::new, true);
+
+    // Utility & machinery blocks
+    public static final Block MOJAVE_ROOTSEED = register("mojave_rootseed", MojaveRootseed::new, MojaveRootseed.blockItemProperties);
 
     // Meme blocks
     public static final Block FREAKYMAN = register("freakyman", MemeBlocks.Freakyman::new, MemeBlocks.Freakyman.blockItemProperties);

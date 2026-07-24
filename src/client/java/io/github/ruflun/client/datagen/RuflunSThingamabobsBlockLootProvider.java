@@ -19,8 +19,17 @@ public class RuflunSThingamabobsBlockLootProvider extends FabricBlockLootSubProv
     public void generate() {
         // Ore drops
         add(ModBlocks.UPER_CORE_ORE, block -> createOreDrop(block, ModItems.UPER_CORE));
+        add(ModBlocks.MOJAVE_ORE, block -> createOreDrop(block, ModItems.RAW_MOJAVE));
+        add(ModBlocks.MUD_MOJAVE_ORE, block -> createOreDrop(block, ModItems.RAW_MOJAVE));
+
+        // TODO: Add leaves drop override after implementing the banana & durian
 
         // Block that drops themselves
+        dropSelf(ModBlocks.MOJAVE_BLOCK);
+        dropSelf(ModBlocks.RAW_MOJAVE_BLOCK);
+
+        dropSelf(ModBlocks.MOJAVE_ROOTSEED);
+
         dropSelf(ModBlocks.RFLINTGLASSNOTFLINTHLUN);
     }
 

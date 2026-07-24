@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "rufrix:raw_mojave",
+    "rufrix:raw_mojave",
+    "rufrix:raw_mojave",
+    "rufrix:raw_mojave",
+    "rufrix:raw_mojave",
+    "rufrix:raw_mojave",
+    "rufrix:raw_mojave",
+    "rufrix:raw_mojave",
+    "rufrix:raw_mojave"
+  ],
+  "result": {
+    "id": "rufrix:raw_mojave_block",
+    "count": 1
+  }
+}

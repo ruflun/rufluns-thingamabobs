@@ -6,7 +6,7 @@
   },
   "display": {
     "announce_to_chat": false,
-    "background": "minecraft:gui/advancements/backgrounds/rufluns_thingamabobs",
+    "background": "rufrix:textures/gui/advancements/backgrounds/rufluns_thingamabobs.png",
     "description": {
       "translate": "advancements.rufrix.root.description"
     },

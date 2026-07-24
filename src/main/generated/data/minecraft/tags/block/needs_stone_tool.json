@@ -1,5 +1,7 @@
 {
   "values": [
-    "#rufrix:mojave_ores"
+    "#rufrix:mojave_ores",
+    "rufrix:mojave_block",
+    "rufrix:raw_mojave_block"
   ]
 }

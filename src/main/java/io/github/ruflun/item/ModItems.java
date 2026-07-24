@@ -1,6 +1,7 @@
 package io.github.ruflun.item;
 
 import io.github.ruflun.RuflunSThingamabobs;
+import io.github.ruflun.item.utility.IngotMold;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
@@ -13,9 +14,16 @@ import java.util.function.Function;
 public class ModItems {
 
     // Registering individual items below
-    public static final Item TEST_ITEM = register("test_item", TestItem::new);
     public static final Item UPER_ESSENCE = register("uper_essence", Item::new);
     public static final Item UPER_CORE = register("uper_core", UperCore::new);
+
+    public static final Item RAW_MOJAVE = register("raw_mojave", GenericItemsWithLore.RAW_MOJAVE);
+    public static final Item MOJAVE_INGOT = register("mojave_ingot", Item::new);
+    public static final Item MOJAVE_NUGGET = register("mojave_nugget", Item::new);
+
+    public static final Item INGOT_MOLD = register("ingot_mold", IngotMold::new);
+
+    public static final Item TEST_ITEM = register("test_item", TestItem::new);
 
 
 

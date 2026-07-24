@@ -20,18 +20,31 @@ public class RuflunSThingamabobsModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(@NonNull BlockModelGenerators blockModelGenerators) {
         // Generic cube blocks
-        blockModelGenerators.createTrivialCube(ModBlocks.FREAKYMAN);
         blockModelGenerators.createTrivialCube(ModBlocks.UPER_CORE_ORE);
         blockModelGenerators.createTrivialCube(ModBlocks.MOJAVE_ORE);
         blockModelGenerators.createTrivialCube(ModBlocks.MUD_MOJAVE_ORE);
+
+        blockModelGenerators.createTrivialCube(ModBlocks.MOJAVE_BLOCK);
+        blockModelGenerators.createTrivialCube(ModBlocks.RAW_MOJAVE_BLOCK);
+
+        blockModelGenerators.createTrivialCube(ModBlocks.MOJAVE_ROOTSEED);
+
         blockModelGenerators.createTrivialCube(ModBlocks.RFLINTGLASSNOTFLINTHLUN);
+        blockModelGenerators.createTrivialCube(ModBlocks.FREAKYMAN);
     }
 
     @Override
     public void generateItemModels(ItemModelGenerators itemModelGenerators) {
         // Flat items (classical)
-        itemModelGenerators.generateFlatItem(ModItems.TEST_ITEM, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.UPER_ESSENCE, ModelTemplates.FLAT_ITEM);
+
+        itemModelGenerators.generateFlatItem(ModItems.RAW_MOJAVE, ModelTemplates.FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.MOJAVE_INGOT, ModelTemplates.FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.MOJAVE_NUGGET, ModelTemplates.FLAT_ITEM);
+
+        itemModelGenerators.generateFlatItem(ModItems.INGOT_MOLD, ModelTemplates.FLAT_ITEM);
+
+        itemModelGenerators.generateFlatItem(ModItems.TEST_ITEM, ModelTemplates.FLAT_ITEM);
 
         // Custom 3D model items via Blockbench
         itemModelGenerators.itemModelOutput.accept(

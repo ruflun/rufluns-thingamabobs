@@ -29,7 +29,7 @@ public class RuflunSThingamabobsAdvancementProvider extends FabricAdvancementPro
                         ModItems.UPER_CORE,
                         Component.translatable("advancements.rufrix.root.title"),
                         Component.translatable("advancements.rufrix.root.description"),
-                        Identifier.withDefaultNamespace("gui/advancements/backgrounds/rufluns_thingamabobs"),
+                        RuflunSThingamabobs.id("textures/gui/advancements/backgrounds/rufluns_thingamabobs.png"),
                         AdvancementType.GOAL,
                         false, false, false
                 )

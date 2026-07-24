@@ -14,15 +14,23 @@ import net.minecraft.world.item.ItemStack;
 public class ModCreativeTab {
 
     public static final CreativeModeTab.DisplayItemsGenerator display = ((parameters, output) -> {
+        output.accept(ModItems.INGOT_MOLD);
+
+        output.accept(ModBlocks.MOJAVE_ROOTSEED);
+
         output.accept(ModBlocks.UPER_CORE_ORE);
         output.accept(ModItems.UPER_CORE);
         output.accept(ModItems.UPER_ESSENCE);
 
         output.accept(ModBlocks.MOJAVE_ORE);
         output.accept(ModBlocks.MUD_MOJAVE_ORE);
+        output.accept(ModItems.MOJAVE_INGOT);
+        output.accept(ModItems.MOJAVE_NUGGET);
+        output.accept(ModBlocks.MOJAVE_BLOCK);
+        output.accept(ModItems.RAW_MOJAVE);
+        output.accept(ModBlocks.RAW_MOJAVE_BLOCK);
 
-        // KEEP THIS MONSTROSITY AT THE BOTTOM
-        output.accept(ModBlocks.FREAKYMAN);
+        // NOTE: Joke content & the Memetic Essence (main ingredients for joke blocks) shouldn't be available in the creative tab, as they're "secret" items.
     });
 
 

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CMC",
+    "CBC"
+  ],
+  "key": {
+    "C": "minecraft:copper_ingot",
+    "B": "minecraft:copper_block",
+    "M": "rufrix:raw_mojave"
+  },
+  "result": {
+    "id": "rufrix:ingot_mold",
+    "count": 1
+  }
+}

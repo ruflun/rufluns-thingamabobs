@@ -41,5 +41,3 @@ replay_*.log
 
 # Specific mod files & folders
 src/main/generated/.cache/
-blockbench_saves/
-**/*.aseprite
